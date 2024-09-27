@@ -4,9 +4,14 @@ window.onload = loaded;
  * Simple Function that will be run when the browser is finished loading.
  */
 function loaded() {
-    // Assign to a variable so we can set a breakpoint in the debugger!
     const hello = sayHello();
     console.log(hello);
+
+    // Add event listener for the submit button
+    const submitButton = document.getElementById('submit-button');
+    if (submitButton) {
+        submitButton.addEventListener('click', handleButtonClick);
+    }
 }
 
 /**
@@ -15,4 +20,16 @@ function loaded() {
  */
 export function sayHello() {
     return 'hello';
+}
+
+/**
+ * Handles the button click event to show the selected radio button value.
+ */
+function handleButtonClick() {
+    const selectedOption = document.querySelector('input[name="options"]:checked');
+    if (selectedOption) {
+        alert(selectedOption.value);
+    } else {
+        alert("Please select an option.");
+    }
 }
