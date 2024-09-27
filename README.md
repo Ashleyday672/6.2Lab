@@ -1,24 +1,10 @@
-# Web Dev Starter Code
+# 6.2 Lab
 
 ## Overview
 
-TODO: Write a project description
+In this project we made and organized a letterhead based on an example provided to us wth certain needed functionality, ie. radio buttons.
+
+To run this program, clone this repository into an IDE of your choice that supports live preview. After doing this run the preview and you can see and interact with the webpage. You may need to open in a separate browser for some functionality.
 
 ## Sources and Credits
-
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
-
-A simple bulleted list below is sufficient. For example:
-
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
+Old projects and examples!
